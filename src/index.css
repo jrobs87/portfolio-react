@@ -19,7 +19,8 @@ code {
   text-decoration: none;
   transition-duration: 0.33s;
   transition-delay: 0.03s;
-  color: #353A47;
+  color: black;
+  /* background: black; */
   
   text-transform: uppercase;
   /* border: 1px solid white; */
@@ -35,7 +36,7 @@ code {
   /* border-bottom: 1px solid #F75C03; */
   /* background: #FFE791; */
   text-decoration: none;
-  color: black;
+  color: #F56416;
 }
 
 .active {

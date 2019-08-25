@@ -1,5 +1,5 @@
-import React from 'react'
-import Ticker from 'react-ticker'
+import React from 'react';
+import Ticker from 'react-ticker';
 
 const project = {
     name: 'Project Example',
