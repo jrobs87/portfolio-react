@@ -14,13 +14,9 @@ import SelectedWorks from './SelectedWorks';
 import About from './About';
 
 
-// importing components
-
 const style = {
   width: '6em'
 }
-
-
 
 const text = {
   color: '#F17300'
@@ -29,7 +25,6 @@ const text = {
 const menu = {
   transform: 'rotate(20deg)'
 }
-
 
 /* Products component */
 const Skills = () => (

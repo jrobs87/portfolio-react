@@ -15,7 +15,7 @@ class Project extends Component {
         name: 'Project Example',
         year: '1987',
         description: 'A simple project',
-        stack: ['Wordpress', 'Divi', 'HTML5', 'CSS', 'Javascript', 'Jquery', 'PHP']
+        stack: ['Wordpress', 'Divi', 'HTML5', 'CSS', 'Javascript', 'Jquery', 'PHP - ']
     }
     render() {
         console.log(this.projects)
@@ -26,11 +26,11 @@ class Project extends Component {
                     <span style={{textAlign: 'right'}}>
                             <h6 style={{borderBottom: '4px solid black'}}>no. 03.01 - 2019</h6>
                             </span>
-                        <div className="mega-text" >
+                        <div className="mega-text-lesser" >
                             ATL CFO FORUM 
                             <span>
                             <Ticker offset="run-in" speed={5} offset>
-                            {() => <h6 style={{ color: '#FF5400', marginRight: '3px' }}>{this.projects.stack.join(' ').toUpperCase()}</h6>}
+                            {() => <h6 style={{ color: '#FF5400', marginRight: '3px' }}>{this.projects.stack.join(' - ').toUpperCase()}</h6>}
                         </Ticker>
                             </span>                       
                          </div>   
